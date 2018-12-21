@@ -11,6 +11,24 @@ body{
     margin-right: auto;
 }
 
+.vote-button{
+    border:2px solid rgba(53, 53, 53, 0.342);
+    border-radius: 20px;
+    background-color: red;
+    color:white;
+    font-size: 14pt;
+    width:140px;
+}
+
+.vote-button a{
+display: block;
+    color:white;
+    font-size: 14pt;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
 .menu{
 
 
@@ -140,7 +158,6 @@ label{
     opacity: 1;
   }
   .radio input:focus + .radio__text:before {
-
   }*/
 
 .votes img{
