@@ -378,7 +378,7 @@ display: inline;
 
 .logo img{
 
-
+    position:relative;
     display: block;
 }
 
