@@ -33,7 +33,19 @@
             </h2>
             
             <p align="center" style="font-weight:bold;color:black;">До конца голосования осталось:</p>
-            <script src="http://megatimer.ru/s/f0fa9df56e7ed8ffb092382ca5efeec0.js"></script>
+
+            <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="https://e-timer.ru/js/etimer.js"></script>
+            <script type="text/javascript">
+	            jQuery(document).ready(function() {
+		        jQuery(".eTimer").eTimer({
+			    etType: 0, etDate: "09.01.2019.0.0", etTitleText: "", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Arial", etTextColor: "#a3a3a3", etPaddingTB: 12, etPaddingLR: 0, etBackground: "transparent", etBorderSize: 0, etBorderRadius: 0, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 3, etNumberFontFamily: "Arial", etNumberSize: 25, etNumberColor: "#040404", etNumberPaddingTB: 0, etNumberPaddingLR: 0, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 0, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+		        });
+	        });
+            </script>
+            <div class="eTimer" align="center" style="width:100%;"></div>
+
+            <!--<script src="http://megatimer.ru/s/f0fa9df56e7ed8ffb092382ca5efeec0.js"></script>-->
             <br>
             <div class="votes" align="center">
                 <label>
@@ -201,8 +213,15 @@
                     </div>
         </div>
         <div class="footer"> 
-                <a href="#header"><img src="img/favicon.png" alt="" style="float:left;height:40px;margin:2px;">    </a> 
-            <a href="#header"><img src="img/year_theater.png" alt="" style="float:left;height:40px;margin:2px;">    </a> 
+                <a class="lf" href="#header"><img src="img/favicon.png" alt="">    </a> 
+            <a class="lf" href="#header"><img src="img/year_theater.png" alt="">    </a> 
+            <div class="social" align="center">
+                <a href="" class="si"><img src="img/yt.png" alt=""></a>
+                <a href="" class="si"><img src="img/ok.png" alt=""></a>
+                <a href="" class="si"><img src="img/fb.png" alt=""></a>
+                <a href="" class="si"><img src="img/tw.png" alt=""></a>
+                <a href="" class="si"><img src="img/vk.png" alt=""></a>
+            </div>
         </div>
     </div>
 </body>
