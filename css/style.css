@@ -187,8 +187,8 @@ label{
     background-color: #fff;
     display: inline-block;
     margin: 1%;
-    filter: brightness(75%);
-    filter: blur(2px);
+    filter: brightness(75%), blur(2px);
+
     transition: .5s ease-in-out;
 }
 
