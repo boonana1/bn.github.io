@@ -193,7 +193,7 @@ label{
 }
 
 .perform:hover{
-    filter:brightness(90%);
+    filter:brightness(99%);
     transition: .5s ease-in-out;
 }
 
