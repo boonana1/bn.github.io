@@ -424,6 +424,14 @@ display: inline;
         margin-left:3px;
         margin-right:3px;
     }
+
+    .main-menu .lm a{
+        height: auto;
+    }
+
+    .main-menu .lm a:hover{
+        height: auto;
+    }
     
     .main-menu a{
         display: block;
