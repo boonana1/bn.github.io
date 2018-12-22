@@ -532,6 +532,11 @@ display: inline;
         margin: 2%;
     
     } 
+    
+    .gallery-box embed{
+    width: 80%;
+    margin: 2%;
+}
 
     .footer .lf img{
         float:none;
