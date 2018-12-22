@@ -351,7 +351,10 @@ display: inline;
     filter: grayscale(0);
 }
 
-
+.vote h2{
+    color:#ff0000;
+    text-align: center;
+}
 
 .vote{
 
