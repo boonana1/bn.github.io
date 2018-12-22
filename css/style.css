@@ -346,8 +346,17 @@ display: inline;
     filter: grayscale(0.75);
     transition: .5s ease-in-out;
 }
-
 .gallery-box img:hover{
+    filter: grayscale(0);
+}
+
+.gallery-box embed{
+    width: 45%;
+    margin: 2%;
+    filter: grayscale(0.75);
+    transition: .5s ease-in-out;
+}
+.gallery-box embed:hover{
     filter: grayscale(0);
 }
 
